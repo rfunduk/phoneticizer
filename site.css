@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: #222;
+}
+
+header {
+  text-align: center;
+  padding: 12px;
+  margin-top: 20px;
+}
+
+header * {
+  color: #FEFEFE;
+}
+
+header h1 {
+  /*font-family: Consolas, Menlo, monospace;*/
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+  header h1 em {
+    font-size: 70%;
+    font-weight: 100 !important;
+  }
+
+header p {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.container {
+  margin-bottom: 75px;
+}
+
+#app {
+  background: #673AB7;
+  border-radius: 5px;
+  padding: 30px 10px;
+  margin: 0;
+}
+  #app .row {
+    margin-bottom: 0;
+  }
+  #app input {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    font-family: Consolas, Menlo, monospace;
+    letter-spacing: -3px;
+    padding: 14px 18px;
+    background-color: #5E35B1;
+    color: white;
+    border: 2px solid #4527A0;
+    border-radius: 5px;
+  }
+  #app input:focus { outline: none; background-color: #5a33a9; }
+  #app input::-webkit-input-placeholder { color: #7E57C2; }
+  #app input:-moz-placeholder { color: #7E57C2; }
+  #app input::-moz-placeholder { color: #7E57C2; }
+  #app input:-ms-input-placeholder { color: #7E57C2; }
+
+  #app ul {
+    margin: 30px auto 0 auto;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+    #app ul li {
+      margin: 0 20px;
+      margin-bottom: 2px;
+      padding: 14px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+      #app ul li tt {
+        font-weight: bold;
+        font-family: Consolas, Menlo, monospace;
+      }
+    #app ul li:hover {
+      background: #5E35B1;
+    }
+    #app ul li.done {
+      /*background: #5E35B1;*/
+      text-decoration: line-through;
+    }
+
+/* newsletter signup */
+
+footer {
+  padding: 30px;
+  text-align: center;
+}
+  footer * {
+    color: #FEFEFE;
+  }
+  footer p {
+    margin-bottom: 0;
+  }
+  footer a, footer a:visited {
+    text-decoration: none;
+    color: #EDE7F6;
+  }
+  footer a:hover {
+    color: #FFF;
+  }
